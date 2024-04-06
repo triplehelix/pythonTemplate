@@ -16,13 +16,13 @@ Apache install (skip if using different webserver):
 
 # running
 Run as root (`sudo su`)
-`python vimeo-dl.py`
+`python <project>.py`
 
 By default the server will launch on localhost:8888
 
 This will consume your shell, so if you want to launch headless:
 
-`nohup python vimeo-dl.py > .vimeo-dl.log 2>&1 &`
+`nohup python <project>.py > .<project>.log 2>&1 &`
 
 # usage
 Use the form on the html page to <usage>
